@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Entry point
@@ -9,6 +10,7 @@
  */
 
 int main(void)
+
 {
 	int digit;
 
@@ -24,10 +26,7 @@ int main(void)
 			{
 				putchar(digit);
 			}
-			break;
-
 		}
-
 	}
 	putchar('\n');
 
