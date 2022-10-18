@@ -4,7 +4,7 @@
  * main - Entry point
  *
  *
- * print 
+ * print
  *
  * Return: always 0 (success)
  */
