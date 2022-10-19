@@ -4,7 +4,7 @@
  * main - entry point
  *
  *
- * return: always 0 (successful)
+ * Return: always 0 (successful)
  */
 
 int main(void)
@@ -14,8 +14,13 @@ int main(void)
 	for (digit = '0'; digit <= '9'; digit++)
 	{
 		putchar(digit);
-		putchar(',');
-		putchar(' ');
+
+		if (digit != '9')
+
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 
