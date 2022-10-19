@@ -20,8 +20,10 @@ int main(void)
 			{
 				putchar(digit_one);
 				putchar(digit_two);
-			
-				if (digit_one != 8 || (digit_one == '8' && digit_two != '9'))
+
+				if (digit_one == '8' && digit_two == '9')
+					continue;
+				else
 				{
 					putchar(',');
 					putchar(' ');
