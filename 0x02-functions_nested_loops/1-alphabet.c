@@ -1,10 +1,17 @@
 #include "main.h"
+#include<stdio.h>
 /**
  * print_alphabet- Entry point. Prints the alphabet in lowercase
  * followed by a new line
+ * 
+ * 
  *
  * Return: always 0 (success)
  */
+int _putchar(char c)
+{
+	putchar(c);
+}
 
 void print_alphabet(void)
 {

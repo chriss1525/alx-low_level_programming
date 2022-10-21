@@ -5,17 +5,14 @@
  *
  * Return: 0 (success)
  */
-
-int main(void)
+int _putchar()
 {
-	_print('_');
-	_print('p');
-	_print('u');
-	_print('t');
-	_print('c');
-	_print('h');
-	_print('a');
-	_print('r');
-	_print('\n');
+	char c[] = "_putchar";
+	int i;
+
+	for (i = 0; i<=7; i++)
+	{ 
+		putchar(c[i]);
+	}
 	return (0);
 }
