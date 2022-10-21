@@ -3,8 +3,8 @@
 /**
  * print_alphabet- Entry point. Prints the alphabet in lowercase
  * followed by a new line
- * 
- * 
+ *
+ *
  *
  * Return: always 0 (success)
  */
