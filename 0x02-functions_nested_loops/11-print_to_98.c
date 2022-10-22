@@ -12,7 +12,7 @@ void print_to_98(int n)
 
 	if (i > n)
 	{
-		for (i; (i - n) >= 0; i--)
+		for (i; ((i - n) >= 0); i--)
 		{
 			if (n <= 9)
 			{
@@ -47,7 +47,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (i; i - n <= 0; i++)
+		for (i; ((i - n) <= 0); i++)
 		{
 			if (n >= 100)
 			{
