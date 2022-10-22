@@ -48,20 +48,6 @@ void print_times_table(int n)
 					_putchar(((c / 10) % 10) + '0');
 					_putchar((c % 10) + '0');
 				}
-				
-				if (x * (i + 1) <= n && i != n)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				else if (i != n)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
 			}
 			_putchar('\n');
 		}
