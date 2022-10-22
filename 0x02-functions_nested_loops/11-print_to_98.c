@@ -8,11 +8,12 @@
 */
 void print_to_98(int n)
 {
+	{
 	int i = 98;
 
 	if (i > n)
 	{
-		for (i; ((i - n) >= 0); i--)
+		for (n; i - n >= 0; n++)
 		{
 			if (n <= 9)
 			{
@@ -47,7 +48,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (i; ((i - n) <= 0); i++)
+		for (n; i - n <= 0; n--)
 		{
 			if (n >= 100)
 			{
