@@ -12,7 +12,7 @@ void print_to_98(int n)
 
 	if (i > n)
 	{
-		for (n; i - n >= 0; n++)
+		while (i - n >= 0)
 		{
 			if (n <= 9)
 			{
@@ -43,11 +43,12 @@ void print_to_98(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
+			n++;
 		}
 	}
 	else
 	{
-		for (n; i - n <= 0; n--)
+		while (i - n <= 0)
 		{
 			if (n >= 100)
 			{
@@ -66,7 +67,8 @@ void print_to_98(int n)
 				_putchar(',');
 				_putchar(' ');
 			}
+			n--;
 		}
 	}
-	_putchar(10);
 }
+			
