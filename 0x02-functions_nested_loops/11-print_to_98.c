@@ -5,10 +5,9 @@
  *@n: int
  *
  *Return: void
-*/
+ */
 void print_to_98(int n)
 {
-	{
 	int i = 98;
 
 	if (i > n)
