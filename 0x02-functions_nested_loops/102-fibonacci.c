@@ -4,7 +4,7 @@
 /**
  * printFibonacci - entry point, prints the first fifty fibonnanci numbers
  *
- *main - entry to recurssion
+ *main - entry point
  *
  *
  *@n: int
@@ -12,32 +12,23 @@
  *
  * Return: 0 (success)
  */
-#include <stdio.h>
-void printFibonacci(int n)
+void main(void)
 {
-	int a = 1;
-	int b = 2;
-	int c;
+	long int n = 50;
+	long int a = 1;
+	long int b = 2;
+	long int c;
+	long int d = 0;
 
-	if (n > 0)
+	printf("%ld, %ld, ", a, b);
+
+	while (d < n - 2)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%d ", c);
-		printFibonacci(n - 1);
-
-		int main(void)
-		{
-			int n;
-
-			printf("50");
-			scanf("%d", n);
-			printf("Fibonacci Series: ");
-			printf("%d %d ", 0, 1);
-			printFibonacci(n - 2);
-
-			return (0);
-		}
+		printf("%ld, ", c);
+		d++;
 	}
+	printf("\n");
 }
