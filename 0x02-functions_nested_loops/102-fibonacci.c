@@ -17,14 +17,14 @@ int main(void)
 	long int c;
 	long int d = 0;
 
-	printf("%ld, %ld, ", a, b);
+	printf("%ld, %ld", a, b);
 
 	while (d < n - 2)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%ld, ", c);
+		printf(", %ld", c);
 		d++;
 	}
 	printf("\n");
