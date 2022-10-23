@@ -12,21 +12,19 @@ int main(void)
 {
 	long int a = 1;
 	long int b = 2;
-	long int c;
+	long int c = a + b;
 	long int d = 2;
-
+    
 	while (c < 4000000)
-	{
-		c = a + b;
-		a = b;
-		b = c;
-
-		if (c % 2 == 0)
-		{
+    {
+		if ((c % 2) == 0)
+        {
 			d += c;
-		}
+        }
+        a = b;
+		b = c;
+        c = a + b;
 	}
-	printf("%ld\n", d);
-
+     printf("%ld\n", d);
 	return (0);
 }
