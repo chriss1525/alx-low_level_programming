@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- *
  *main - entry point
  *
  *
