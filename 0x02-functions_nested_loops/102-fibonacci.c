@@ -7,14 +7,14 @@
  *
  * Return: 0 (success)
  */
-int main(void)
+int main(void) 
 {
-    int n;
-    int i[] = {n, n++};
-    for (n = 0; n < 100; n++)
+	int n;
+    int i[50] = {n, n++};
+    for (;n > 0; n++)
     {
-        printf("%d, ", i, i);
+    	printf("%d, ", i,i);
         return 0;
-    }
+	}
     printf("\n");
 }
