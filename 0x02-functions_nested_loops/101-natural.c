@@ -7,20 +7,20 @@
 int main(void)
 {
 	int n;
-    int i = 0;
-	
+	int i = 0;
+
 	while (n < 1024)
 	{
-    	if (n % 3 == 0)
-        {
-        i += n;
-        }
-        else if (n % 5 == 0)
-        {
-        i += n;
-        }
-        n++;
+		if (n % 3 == 0)
+		{
+			i += n;
+		}
+		else if (n % 5 == 0)
+		{
+			i += n;
+		}
+		n++;
 	}
-    printf("%d\n", i);
-    return (0);
+	printf("%d\n", i);
+	return (0);
 }
