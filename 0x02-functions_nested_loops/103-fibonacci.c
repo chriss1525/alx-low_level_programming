@@ -13,10 +13,9 @@ int main(void)
 	long int a = 1;
 	long int b = 2;
 	long int c;
-	long int d = 0;
-	long int e = 2;
+	long int d = 2;
 
-	while (d < 4000000)
+	while (c < 4000000)
 	{
 		c = a + b;
 		a = b;
@@ -24,11 +23,10 @@ int main(void)
 
 		if (c % 2 == 0)
 		{
-			e += c;
+			d += c;
 		}
-		d++;
 	}
-	printf("%ld\n", e);
+	printf("%ld\n", d);
 
 	return (0);
 }
