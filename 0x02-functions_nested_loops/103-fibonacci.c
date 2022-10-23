@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
  *main - entry point
  *
@@ -14,17 +12,17 @@ int main(void)
 	long int b = 2;
 	long int c = a + b;
 	long int d = 2;
-    
+
 	while (c < 4000000)
-    {
+	{
 		if ((c % 2) == 0)
-        {
+		{
 			d += c;
-        }
-        a = b;
+		}
+		a = b;
 		b = c;
-        c = a + b;
+		c = a + b;
 	}
-     printf("%ld\n", d);
+	printf("%ld\n", d);
 	return (0);
 }
