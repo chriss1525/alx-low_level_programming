@@ -14,15 +14,17 @@ void print_times_table(int n)
 		{
 			for (i = 1; i <= n; i++)
 			{
-				_putchar(',');
-				_putchar(' ');
 				c = x * i;
 
 				if ((c <= 9) && (c <= 99))
 				{
+					_putchar(',');
 					_putchar(' ');
 				}
-
+				if (c <= 99)
+				{
+					putchar(' ');
+				}
 				if (i == 0)
 				{
 					_putchar(c + '0');
