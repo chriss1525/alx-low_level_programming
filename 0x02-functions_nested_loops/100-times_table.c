@@ -16,8 +16,12 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
-
 				c = x * i;
+
+				if ((c <= 9) && (c <= 99))
+				{
+					_putchar(' ');
+				}
 
 				if (i == 0)
 				{

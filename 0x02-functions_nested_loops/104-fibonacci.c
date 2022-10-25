@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-	long int n = 98;
-	long int a = 1;
-	long int b = 2;
-	long int c;
-	long int d = 0;
+	long n = 98;
+	long a = 1;
+	long b = 2;
+	long c;
+	long d = 0;
 
 	printf("%ld, %ld", a, b);
 
