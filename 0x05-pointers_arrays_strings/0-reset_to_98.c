@@ -4,6 +4,7 @@
  * resets the value of the integer it points to to 98
  *
  * @*n: pointer that updates an integer's value to 98
+ * @n: integer
  *
  * Return: void (success)
  */
