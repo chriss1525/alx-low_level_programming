@@ -10,20 +10,20 @@
  */
 int main(void)
 {
-	long n = 98;
-	long a = 1;
-	long b = 2;
-	long c;
-	long d = 0;
+	unsigned long n = 98;
+	unsigned long a = 1;
+	unsigned long b = 2;
+	unsigned long c;
+	unsigned long d = 0;
 
-	printf("%ld, %ld", a, b);
+	printf("%lu, %lu", a, b);
 
 	while (d < n - 2)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf(", %ld", c);
+		printf(", %lu", c);
 		d++;
 	}
 	printf("\n");
