@@ -5,7 +5,7 @@
  * @c: int
  *
  *Return: 1 (success)
-*/
+ */
 
 int _isupper(int c)
 {
