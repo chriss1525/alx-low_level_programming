@@ -8,23 +8,21 @@
 int main(void)
 {
 	long int i;
-	long int c = -1;
+	long int c = 2;
 	long int n = 612852475143;
 
-	for (i = 3; i <= sqrt(n); i = i + 2)
+	while (n >= 2)
 	{
-		while (n % i == 0)
+		if (n % c == 0)
 		{
-			c = i;
-			n = n / i;
+			i = c;
+			n = n / c;
+		}
+		else
+		{
+			c++;
 		}
 	}
-	if (n > 2)
-	{
-		c = n;
-
-		printf("%ld\n", c);
-	}
-
+	printf("%ld\n", i);
 	return (0);
 }
