@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * divisor - entry point. determiner
- * 
+ * divisors - entry point. determiner
+ *
  * @n: int
- * 
+ * @m: int
  * Return: 1 if true and 0 if false
-*/
+ */
 int divisors(int n, int m)
 {
 	if (m % n == 0)
