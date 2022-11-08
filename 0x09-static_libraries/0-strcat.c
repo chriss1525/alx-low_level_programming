@@ -1,15 +1,20 @@
 #include "main.h"
-/**
- *_memset - Entry poit. 
- *
- * @dest: string
- * @src: string
- *
- *
- *Return: 0 (success)
- */
 
+/**
+ * *_strcat - concatenate strings.
+ *@dest: dest
+ *@src: src
+ * Return: dest.
+ */
 char *_strcat(char *dest, char *src)
 {
-		return (0);
+	int i = 0, ii;
+
+	while (dest[i])
+		i++;
+	for (ii = 0; src[ii] != '\0';)
+	{
+		dest[i++] = src[ii++];
+	}
+	return (dest);
 }

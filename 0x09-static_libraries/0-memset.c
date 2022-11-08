@@ -1,15 +1,21 @@
 #include "main.h"
-/**
- *_isupper - Entry poit. Checks if character is lower
- *
- * @s: string
- * @b: char
- *@n: unsigned int
- *
- *Return: 0 (success)
- */
 
+/**
+ * *_memset - fills first byte of the memory area pointed
+ * @s: char s
+ * @b: char b
+ * @n: n
+ *
+ * Return: 0.
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
-		return (0);
+	unsigned int i = 0;
+
+	while (i < n)
+	{
+		s[i] = b;
+		i++;
+	}
+	return (s);
 }
