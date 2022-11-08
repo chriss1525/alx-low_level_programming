@@ -1,68 +1,8 @@
 !<arch>
 _putchar.o/     0           0     0     644     76        `
-#include "main.h"
-
-int _putchar(char c)
-{
-    putchar(c);
-    return (0);
-}
 0-isupper.o/    0           0     0     644     217       `
-#include "main.h"
-/**
- *_isupper - Entry poit. Checks if character is lower
- *
- * @c: int
- *
- *Return: 1 (success)
- */
-
-int _isupper(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-}
-
 0-memset.o/     0           0     0     644     219       `
-#include "main.h"
-/**
- *_isupper - Entry poit. Checks if character is lower
- *
- * @s: string
- * @b: char
- *@n: unsigned int
- *
- *Return: 0 (success)
- */
-
-char *_memset(char *s, char b, unsigned int n)
-{
-		return (0);
-}
-
-0-strcat.o/     0           0     0     644     171       `
-#include "main.h"
-/**
- *_memset - Entry poit. 
- *
- * @dest: string
- * @src: string
- *
- *
- *Return: 0 (success)
- */
-
-char *_strcat(char *dest, char *src)
-{
-		return (0);
-}
-
+ 0-strcat.o/     0           0     0     644     171       `
 1-isdigit.o/    0           0     0     644     0         `
 1-memcpy.o/     0           0     0     644     0         `
 1-strncat.o/    0           0     0     644     0         `
