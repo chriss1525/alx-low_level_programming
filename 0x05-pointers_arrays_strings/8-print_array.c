@@ -2,15 +2,24 @@
 /**
  * print_array - entry point
  * @a: array/string
+ * @n: number of elements in the array
  * Return: void
  */
 void print_array(int *a, int n)
 {
 	int i;
 
-	while (i <= n)
+	i = 0;
+
+	while (i < n)
 	{
-		_putchar(a[i]);
+		printf("%d, ", a[i]);
 		i++;
 	}
+	while (i == n)
+	{
+		printf("%d", a[i]);
+		i++;
+	}
+	printf("\n");
 }
