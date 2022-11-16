@@ -7,7 +7,11 @@
  */
 void print_dog(struct dog *d)
 {
-	
+	if (!(d))
+	{
+	}
+	else
+	{
 		if (d->name)
 		{
 			if (!(d->name))
@@ -30,4 +34,5 @@ void print_dog(struct dog *d)
 			}
 			printf("owner: %s\n", d->owner);
 		}
+	}
 }
