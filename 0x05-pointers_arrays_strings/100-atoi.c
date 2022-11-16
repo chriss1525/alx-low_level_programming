@@ -3,7 +3,7 @@
 int _pow(int n);
 
 /**
- * _pow - check code
+ * _pow - check the code for Holberton School students.
  *@n: n.
  * Return: Always 0.
  */
