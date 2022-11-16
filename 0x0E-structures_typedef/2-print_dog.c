@@ -7,15 +7,10 @@
  */
 void print_dog(struct dog *d)
 {
-	if (d == "NULL")
-	{
-	}
-	else
-	{
-
+	
 		if (d->name)
 		{
-			if ((d->name) == "NULL")
+			if (!(d->name))
 			{
 				printf("Name: (nil)\n");
 			}
@@ -29,12 +24,10 @@ void print_dog(struct dog *d)
 
 		if (d->owner)
 		{
-			if ((d->owner) == "NULL")
+			if (!(d->owner))
 			{
 				printf("Owner: (nil)\n");
 			}
 			printf("owner: %s\n", d->owner);
 		}
-	}
-	return (0);
 }
