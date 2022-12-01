@@ -2,11 +2,11 @@
 /**
  * free_list - frees a list
  * @head: node
-*/
+ */
 
 void free_list(list_t *head)
 {
-    list_t *str2;
+	list_t *str2;
 
 	while (head)
 	{
