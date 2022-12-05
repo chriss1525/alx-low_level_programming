@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * pop_listint - deletes headnode and returns the head node's data
+ * pop_listint - deletes headnode
  * @head: first node in a linked list
+ * Return: head node's data
  */
 int pop_listint(listint_t **head)
 {
