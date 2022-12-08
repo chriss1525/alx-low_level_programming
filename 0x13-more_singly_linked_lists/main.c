@@ -65,8 +65,8 @@ int main(void)
 	listint_t *head;
 	listint_t *n;
 
-	head = _create_list(2, 9, 6);
-	n = insert_nodeint_at_index(&head, 0, 98);
+	head = _create_list(2, -12, 6);
+	n = insert_nodeint_at_index(&head, 1, 98);
 	if (n)
 		printf("-> %d\n", n->n);
 	else
