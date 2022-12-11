@@ -1,0 +1,3 @@
+/*ignore all main.c and a.out files*/
+main.c
+a.out
