@@ -61,22 +61,29 @@ char **strtow(char *str)
  * stringwordcount - counts number of words in s tring
  * @str: string
  * Return: number of words in string
-*/
+ */
 int stringwordcount(char *str)
 {
-	int i = 0, j = 0, l = 0;
-
-	for (i = 0; *(str + i); i++)
-		l++;
-
-	for (i = 0; i < l; i++)
 	{
-		if (*(str + i) != ' ')
-		{
-			j++;
-			i += strlen(str + i);
-		}
-	}
+		unsigned int i = 0;
+		int words = 0;
 
-	return (j);
+		while (i <= strlen(str))
+		{
+			if ((str[i] != ' ') && (str[i] != '\0'))
+			{
+				i++;
+			}
+			else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
+			{
+				words += 1;
+				i++;
+			}
+			else
+			{
+				i++;
+			}
+		}
+		return (words);
+	}
 }
