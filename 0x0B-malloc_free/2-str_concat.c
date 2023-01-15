@@ -4,14 +4,14 @@
  * @s1: first string
  * @s2: sencondstring
  * Return: new string (success) Null (fail)
-*/
+ */
 
 char *str_concat(char *s1, char *s2)
 {
 	char *new;
 	int i;
-    int j = 0;
-    int len = 0;
+	int j = 0;
+	int len = 0;
 
 	if (s1 == NULL)
 		s1 = "";
