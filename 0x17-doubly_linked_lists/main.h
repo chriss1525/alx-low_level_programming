@@ -1,10 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include "stdio.h"
-#include "stdlib.h"
-#include "string.h"
-#include "math.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <strings.h>
+#include "lists.h"
+#include <limits.h>
 
 /**
  * struct dlistint_s - doubly linked list
