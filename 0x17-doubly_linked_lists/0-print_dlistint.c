@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * print_dlistint - prints all elements of a doubly linked list
  * @h: the head of the doubly linked list
