@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnode_end - adds elements to the end of a linked list
+ * add_dnodeint_end - adds elements to the end of a linked list
  * @head: first node int list
  * @n: new integer in list
  * Return: address of new element (Success), NULL (failed)
