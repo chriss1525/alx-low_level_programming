@@ -5,10 +5,10 @@
 #include <stdio.h>
 
 /**
- * struct op - Struct op
+ * struct op - Struc op
  *
  * @op: The operator
- * @f: The function associated
+ * @f: The function associated with the operator
  */
 typedef struct op
 {
