@@ -3,7 +3,6 @@
  * delete_dnodeint_at_index - deletes node at index
  * @head: first node in list
  * @index: index where node is deleted
- * 
  * Return: 1 (success) -1 (fail)
  */
 
