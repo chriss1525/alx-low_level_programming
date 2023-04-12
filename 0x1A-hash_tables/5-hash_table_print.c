@@ -10,6 +10,10 @@ void hash_table_print(const hash_table_t *ht)
 	char dict[1024] = "";
 	char tmp[100] = "";
 
+	if (!ht)
+	{
+		return;
+	}
 	for (i = 0; i < ht->size; i++)
 	{
 		current = ht->array[i];
