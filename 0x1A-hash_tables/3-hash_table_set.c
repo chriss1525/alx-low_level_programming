@@ -1,7 +1,11 @@
 #include "hash_tables.h"
 #include <string.h>
 /**
- *
+ * hash_table_set - add element to hash_table
+ * @ht: hashtable
+ * @key: key in hashtable
+ * @value: value related to key
+ * Return: 1 success 0 fail
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
